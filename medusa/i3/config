@@ -176,7 +176,7 @@ bindsym $mod+r mode "resize"
 
 exec --no-startup-id feh --no-fehbg --bg-fill '/home/deager/Pictures/84216107_p0.jpg'
 exec_always --no-startup-id polybar example &
-
+exec_always --no-startup-id xcompmgr
 #Custom features
 client.background       #5f377e
 for_window [class=".*"] border pixel 0
