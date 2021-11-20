@@ -7,12 +7,13 @@
   full_screen = <Ctrl><Shift>F11
 [profiles]
   [[default]]
-    background_darkness = 0.49
+    background_darkness = 0.6
     background_type = transparent
     cursor_color = "#000000"
     font = Fixed 10
     foreground_color = "#ff94fd"
-    palette = "#000000:#f8e45c:#dc8add:#ff2d2d:#c061cb:#aa00aa:#5f377e:#ffffff:#000000:#f8e45c:#dc8add:#ff2d2d:#c061cb:#ff55ff:#5f377e:#ffffff"
+    scrollbar_position = hidden
+    palette = "#000000:#f8e45c:#dc8add:#ff2d2d:#c061cb:#aa00aa:#e84ca8:#ffffff:#000000:#f8e45c:#dc8add:#ff2d2d:#c061cb:#ff55ff:#e84ca8:#ffffff"
     custom_command = 'echo \"foo#bar\"'
     bold_is_bright = True
 [layouts]
