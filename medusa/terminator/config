@@ -9,6 +9,7 @@
 
   [profiles]
     [[default]]
+      use_theme_colors = false
       font = Fixed 10
       background_color = "#000000" # A comment
       foreground_color = "#B6A2D3" # Note that hex colour values must be quoted
