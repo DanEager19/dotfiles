@@ -8,6 +8,7 @@ sudo apt install polybar
 sudo apt install rofi
 sudo apt install htop
 sudo apt install xcompmgr
+sudo apt install feh
 sudo apt install tmux
 
 ln -s .gitconfig $HOME/.
