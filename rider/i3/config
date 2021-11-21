@@ -177,8 +177,9 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id feh --no-fehbg --bg-fill ~/.dotfiles/rider/84216107_p0.jpg
 exec_always --no-startup-id polybar example &
 exec_always --no-startup-id xcompmgr
+exec_always --no-startup-id xbacklight
 #Custom features
 client.background       #5f377e
 for_window [class=".*"] border pixel 0
-gaps outer -2
+gaps outer 30
 gaps inner 20

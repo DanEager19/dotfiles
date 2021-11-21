@@ -13,7 +13,7 @@
     font = Fixed 10
     foreground_color = "#ff94fd"
     scrollbar_position = hidden
-    palette = "#000000:#f8e45c:#dc8add:#ff2d2d:#c061cb:#aa00aa:#e84ca8:#ffffff:#000000:#f8e45c:#dc8add:#ff2d2d:#c061cb:#ff55ff:#e84ca8:#ffffff"
+    palette = "#aa00aa:#f8e45c:#dc8add:#ff2d2d:#c061cb:#ff55ff:#e84ca8:#ffffff:#aa00aa:#f8e45c:#dc8add:#ff2d2d:#c061cb:#ff55ff:#e84ca8:#ffffff"
     custom_command = 'echo \"foo#bar\"'
     bold_is_bright = True
 [layouts]
