@@ -116,3 +116,4 @@ if ! shopt -oq posix; then
   fi
 fi
 export PS1='🐍~$ '
+. "$HOME/.cargo/env"
