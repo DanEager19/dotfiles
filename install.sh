@@ -26,14 +26,14 @@ sudo rm -rf ~/.config/rofi
 sudo rm -rf ~/.config/htop
 sudo rm -rf ~/.config/tmux
 
-ln -sf rider/.gitconfig ~/.gitconfig
-ln -sf rider/.nvimrc ~/.nvimrc
-ln -sf rider/.bashrc ~/.bashrc
-ln -sf rider/i3 ~/.config/i3
-ln -sf rider/nvim ~/.config/nvim
-ln -sf rider/terminatior ~/.config/terminatior
-ln -sf rider/neofetch ~/.config/neofetch
-ln -sf rider/polybar ~/.config/polybar
-ln -sf rider/rofi ~/.config/rofi
-ln -sf rider/htop ~/.config/htop
-ln -sf rider/tmux ~/.config/tmux
+ln -sf ~/dotfiles/rider/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/rider/.nvimrc ~/.nvimrc
+ln -sf ~/dotfiles/rider/.bashrc ~/.bashrc
+ln -sf ~/dotfiles/rider/i3 ~/.config/i3
+ln -sf ~/dotfiles/rider/nvim ~/.config/nvim
+ln -sf ~/dotfiles/rider/terminatior ~/.config/terminatior
+ln -sf ~/dotfiles/rider/neofetch ~/.config/neofetch
+ln -sf ~/dotfiles/rider/polybar ~/.config/polybar
+ln -sf ~/dotfiles/rider/rofi ~/.config/rofi
+ln -sf ~/dotfiles/rider/htop ~/.config/htop
+ln -sf ~/dotfiles/rider/tmux ~/.config/tmux
