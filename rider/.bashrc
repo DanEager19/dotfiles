@@ -115,5 +115,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
 export PS1='🐍~$ '
 . "$HOME/.cargo/env"
+alias :q='exit'
+
