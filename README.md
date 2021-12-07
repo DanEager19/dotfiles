@@ -4,7 +4,7 @@ Credit to artwork: https://www.pixiv.net/en/artworks/84216107<br><br>
 
 Example:<br>
 ![Example](./GetImage.png)
-
+<br>
 The install.sh scripts installs and configures:
 - bash
 - i3
@@ -18,5 +18,3 @@ The install.sh scripts installs and configures:
 - neofetch
 - xcompmgr
 - feh
-<br>
-Make sure to clone the repo into the desired HOME directory.
