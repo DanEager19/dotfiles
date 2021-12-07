@@ -17,4 +17,5 @@ The install.sh scripts installs and configures:
 - neofetch
 - xcompmgr
 - feh
+<br>
 Make sure to clone the repo into the desired HOME directory.
