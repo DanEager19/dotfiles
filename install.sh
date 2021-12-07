@@ -31,7 +31,7 @@ ln -sf ~/dotfiles/rider/.nvimrc ~/.nvimrc
 ln -sf ~/dotfiles/rider/.bashrc ~/.bashrc
 ln -sf ~/dotfiles/rider/i3 ~/.config/i3
 ln -sf ~/dotfiles/rider/nvim ~/.config/nvim
-ln -sf ~/dotfiles/rider/terminatior ~/.config/terminator
+ln -sf ~/dotfiles/rider/terminator ~/.config/terminator
 ln -sf ~/dotfiles/rider/neofetch ~/.config/neofetch
 ln -sf ~/dotfiles/rider/polybar ~/.config/polybar
 ln -sf ~/dotfiles/rider/rofi ~/.config/rofi
