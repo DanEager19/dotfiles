@@ -5,7 +5,7 @@ sudo apt-get install i3
 sudo add-apt-repository ppa:regolith-linux/release
 sudo apt update
 sudo apt install i3-gaps
-sudo apt-get install terminatior
+sudo apt-get install terminator
 sudo apt-get install neofetch
 sudo apt-get install polybar
 sudo apt-get install rofi
