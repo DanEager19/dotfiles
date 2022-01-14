@@ -1,20 +1,32 @@
 #!/bin/bash
 
 #Install apps use apt
-sudo apt-get install git -f
-sudo apt-get install neovim -f
-sudo apt-get install i3 -f
+sudo apt-get -f install git
+sudo apt-get -f install neovim
+sudo apt-get -f install i3
 sudo add-apt-repository ppa:regolith-linux/release
 sudo apt update
-sudo apt install i3-gaps -f
-sudo apt-get install terminator -f
-sudo apt-get install neofetch -f 
-sudo apt-get install polybar -f
-sudo apt-get install rofi -f
-sudo apt-get install htop -f
-sudo apt-get install xcompmgr -f
-sudo apt-get install feh -f
-sudo apt-get install tmux -f
+sudo apt -f install i3-gaps
+sudo apt-get -f install terminator
+sudo apt-get -f install neofetch 
+sudo apt-get -f install polybar
+sudo apt-get -f install rofi
+sudo apt-get -f install htop
+sudo apt-get -f install xcompmgr
+sudo apt-get -f install feh
+sudo apt-get -f install tmux
+
+#Additional apps
+#Bitwarden
+#Firefox
+#Slack
+#Discord
+#Mullvad
+#Signal
+#Authy
+#Libre
+#VLC
+#Bittorrent
 
 #Remove default config files
 sudo rm -rf ~/.gitconfig
