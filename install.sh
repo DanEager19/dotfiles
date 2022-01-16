@@ -1,16 +1,20 @@
 #!/bin/bash
 
 #Install apps use apt
-sudo pacman -S git
-sudo pacman -S neovim
-sudo pacman -S terminator
-sudo pacman -S neofetch 
-sudo pacman -S polybar
-sudo pacman -S rofi
-sudo pacman -S htop
-sudo pacman -S xcompmgr
-sudo pacman -S feh
-sudo pacman -S tmux
+sudo apt-get -f install git
+sudo apt-get -f install neovim
+sudo apt-get -f install i3
+sudo add-apt-repository ppa:regolith-linux/release
+sudo apt update
+sudo apt -f install i3-gaps
+sudo apt-get -f install terminator
+sudo apt-get -f install neofetch 
+sudo apt-get -f install polybar
+sudo apt-get -f install rofi
+sudo apt-get -f install htop
+sudo apt-get -f install xcompmgr
+sudo apt-get -f install feh
+sudo apt-get -f install tmux
 
 #Additional apps
 #Bitwarden
