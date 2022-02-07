@@ -9,6 +9,7 @@ sudo apt -f install i3-gaps git neovim terminator neofetch polybar rofi htop xco
 sudo rm -rf ~/.gitconfig
 sudo rm -rf ~/.nvimrc
 sudo rm -rf ~/.bashrc
+sudo rm -rf ~/.tmux.conf
 sudo rm -rf ~/.config/i3
 sudo rm -rf ~/.config/nvim
 sudo rm -rf ~/.config/terminator
@@ -16,7 +17,6 @@ sudo rm -rf ~/.config/neofetch
 sudo rm -rf ~/.config/polybar
 sudo rm -rf ~/.config/rofi
 sudo rm -rf ~/.config/htop
-sudo rm -rf ~/.config/tmux
 
 #Create symbolic links between dotfiles and config files
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
