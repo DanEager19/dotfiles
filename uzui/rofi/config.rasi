@@ -1,0 +1,9 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ font: "monospace regular 11";
+ combi-modi: "window,drun,ssh";
+ color-normal: "#dc8add, #000, #c061cb, #000, #dc8add";
+ color-urgent: "argb:00000000, #dc8add, argb:00000000, argb:00000000, #c061cb";
+ color-active: "argb:00000000, #dc8add, argb:00000000, argb:00000000, #c061cb";
+ color-window: "#dc8add, #c061cb, #aa00aa";
+ }
