@@ -182,3 +182,4 @@ client.background       #5f377e
 for_window [class=".*"] border pixel 0
 gaps outer 30
 gaps inner 20
+exec --no-startup-id feh --no-fehbg --bg-fill ~/dotfiles/rider.jpg

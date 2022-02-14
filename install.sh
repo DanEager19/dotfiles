@@ -30,12 +30,3 @@ ln -sf ~/dotfiles/polybar ~/.config/polybar
 ln -sf ~/dotfiles/rofi ~/.config/rofi
 ln -sf ~/dotfiles/htop ~/.config/htop
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
-
-read -p "Rider or Tengen? " ans
-if [[ $ans = 'rider' || $ans = 'Rider' ]]; then
-	echo 'exec --no-startup-id feh --no-fehbg --bg-fill ~/dotfiles/pics/rider.jpg' >> ~/.config/i3/config
-elif [[ $ans = 'tengen' || $ans = 'Tengen']]; then
-	echo 'exec --no-startup-id feh --no-fehbg --bg-fill ~/dotfiles/pics/tengen.jpg' >> ~/.config/i3/config
-else
-    echo "No option given!"
-fi
