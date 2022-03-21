@@ -1,2 +1,2 @@
-Dock
-File manager
+Dock (Plank)
+File manager (Dolphin)
