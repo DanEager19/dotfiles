@@ -1,0 +1,2 @@
+Dock
+File manager
