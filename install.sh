@@ -3,7 +3,7 @@
 #Install apps use apt
 sudo add-apt-repository ppa:regolith-linux/release
 sudo apt update
-sudo apt -f install i3-gaps git neovim terminator neofetch polybar rofi htop xcompmgr feh tmux
+sudo apt -f install i3-gaps git neovim terminator neofetch polybar rofi htop xcompmgr feh tmux plank dolphin
 
 #Remove default config files
 sudo rm -rf ~/.gitconfig
@@ -17,6 +17,7 @@ sudo rm -rf ~/.config/neofetch
 sudo rm -rf ~/.config/polybar
 sudo rm -rf ~/.config/rofi
 sudo rm -rf ~/.config/htop
+sudo rm -rf ~/.config/dolphinrc
 
 #Create symbolic links between dotfiles and config files
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
@@ -30,3 +31,4 @@ ln -sf ~/dotfiles/polybar ~/.config/polybar
 ln -sf ~/dotfiles/rofi ~/.config/rofi
 ln -sf ~/dotfiles/htop ~/.config/htop
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/dolphinrc ~/.config/dolphinrc

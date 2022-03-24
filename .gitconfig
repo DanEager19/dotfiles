@@ -1,8 +1,10 @@
 [user]
-	name = Dan Eager
-	email = 81655709+DanEager19@users.noreply.github.com
+	name = Daniel Eager
+	email = daniel@deager.dev
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+[credential]
+	helper = cache

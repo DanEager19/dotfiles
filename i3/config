@@ -177,9 +177,10 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id polybar default &
 exec_always --no-startup-id xcompmgr
 exec_always --no-startup-id xbacklight
+exec_always --no-startup-id plank
 #Custom features
 client.background       #5f377e
 for_window [class=".*"] border pixel 0
-gaps outer 30
+gaps outer 25
 gaps inner 20
 exec --no-startup-id feh --no-fehbg --bg-fill ~/dotfiles/rider.jpg
