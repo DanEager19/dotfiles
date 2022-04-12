@@ -1,15 +1,15 @@
 [global_config]
   focus = system
-  title_transmit_bg_color = "#77767b"
+  title_transmit_bg_color = "#c061cb"
   title_receive_bg_color = "#77767b"
-  title_inactive_bg_color = "#5e5c64"
+  title_inactive_bg_color = "#c061cb"
 [keybindings]
   full_screen = <Ctrl><Shift>F11
 [profiles]
   [[default]]
     background_darkness = 0.75
     background_type = transparent
-    cursor_color = "#000000"
+    cursor_color = "#c061cb"
     font = Fixed 10
     foreground_color = "#ff94fd"
     scrollbar_position = hidden

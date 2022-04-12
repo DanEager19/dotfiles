@@ -3,7 +3,7 @@
 #Install apps use apt
 sudo add-apt-repository ppa:regolith-linux/release
 sudo apt update
-sudo apt -f install i3-gaps git neovim terminator neofetch polybar rofi htop xcompmgr feh tmux plank dolphin
+sudo apt -f install i3-gaps git neovim terminator neofetch polybar rofi htop xcompmgr feh tmux
 
 #Remove default config files
 sudo rm -rf ~/.gitconfig
