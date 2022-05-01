@@ -174,13 +174,19 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+#Lock screen
+bindsym $mod+n exec i3lock
+
 exec_always --no-startup-id polybar default &
 exec_always --no-startup-id xcompmgr
 exec_always --no-startup-id xbacklight
+exec_always --no-startup-id flatpak run com.discordapp.Discord
+exec_always --no-startup-id flatpak run com.slack.Slack
+exec_always --no-startup-id flatpak run com.spotify.Client
 
 #Custom features
 client.background       #5f377e
 for_window [class=".*"] border pixel 0
-gaps outer 25
-gaps inner 20
+gaps outer 20
+gaps inner 10
 exec --no-startup-id feh --no-fehbg --bg-fill ~/dotfiles/rider.jpg
