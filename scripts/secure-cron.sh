@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sudo chown root:root /etc/anacrontab
 sudo chmod og-rwx /etc/anacrontab
