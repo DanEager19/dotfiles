@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #Install apps use apt
 sudo add-apt-repository ppa:regolith-linux/release
