@@ -5,7 +5,7 @@ sudo apt update
 sudo apt dist-upgrade
 
 #Install tools
-sudo apt-get install htop docker.io neovim ufw net-tools wget cron curl git grep tmux gcc g++ sed openssh
+sudo apt-get install htop docker.io neovim ufw net-tools wget cron curl git grep tmux gcc g++ sed
 
 #Install apps
 sudo apt-get install libreoffice firefox vlc
