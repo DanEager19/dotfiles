@@ -1,2 +1,0 @@
-Dock (Plank)
-File manager (Dolphin)
