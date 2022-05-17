@@ -2,12 +2,17 @@
 use strict;
 use warnings;
 
-my @str = ('PermitRootLogin');
-open (my $file "<", "/etc/ssh/sshd_config") or die $!;
+my @str = ('#PermitRootLogin');
+open (my $file, '<', "./hi.txt") or die $!;
 
-while ( <$file> ) {
-    if (s///) {
-
+while ( my $line = <$file> ) {
+    if ($line =~ ) {
+        print "$line";
     }
 }
-close();
+close( $file );
+s/PermitRootLogin.*+$/No/;
+
+my %options = {
+    'PermitRootLogin' => 'No'
+}

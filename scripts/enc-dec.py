@@ -16,7 +16,7 @@ key_dir = os.path.join(home, 'keys')
 if (os.path.isdir(key_dir) == False):
     os.mkdir(key_dir)
 else:
-    print('Keys directory already exists, skipping...')
+    print('Keys directory already exists. Skipping...')
 
 #Makes a key based off of file name.
 gen_key = sys.argv[2] + '.key'
@@ -28,7 +28,7 @@ if(os.path.isfile(key_path) == False):
     with open(key_path, 'wb') as filekey:
         filekey.write(key) 
 else:
-    print('Key already exists, skipping...')
+    print('Key already exists. Skipping...')
 
 #Writes key to file.
 try:
