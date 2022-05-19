@@ -32,4 +32,8 @@ sudo chmod og-rwx /etc/cron.monthly
 sudo chown root:root /etc/cron.d
 sudo chmod og-rwx /etc/cron.d
 
+chown root:root /etc/ssh/sshd_config
+chmod 600 /etc/ssh/sshd_config
+systemctl restart sshd
+
 reboot
