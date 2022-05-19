@@ -8,15 +8,10 @@ find( { wanted => \&findFiles, }, '/home/daniel/dotfiles' );
 sub findFiles {
     my $filename = $File::Find::name;
     if ( $filename =~ /^.*\.sh.*$/ ) {
-        searchFile($filename);
+        open( DATA, "<", $filename ) or die $!;
+        while ( <DATA> ) {
+            print "$filename - $.:$_" if $_ =~ /bash/;
+        }
+        close( DATA );
     }
-}
-
-sub searchFile {
-    open( DATA, "<", @_ ) or die $!;
-
-    while ( <DATA> ) {
-        print "@_:$_" if $_ =~ /docker/;
-    }
-    close( DATA );
 }
