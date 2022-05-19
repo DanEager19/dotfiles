@@ -3,8 +3,20 @@ use strict;
 use warnings;
 use File::Find;
 
-find( { wanted => \&findFiles, }, '/' );
+find( { wanted => \&findFiles, }, '/home/daniel/dotfiles' );
 
 sub findFiles {
-    print "$File::Find::name\n" if $File::Find::name =~ /^.*\.py.*$/;
+    my $filename = $File::Find::name;
+    if ( $filename =~ /^.*\.sh.*$/ ) {
+        searchFile($filename);
+    }
+}
+
+sub searchFile {
+    open( DATA, "<", @_ ) or die $!;
+
+    while ( <DATA> ) {
+        print "@_:$_" if $_ =~ /docker/;
+    }
+    close( DATA );
 }
