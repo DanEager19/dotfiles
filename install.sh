@@ -1,9 +1,9 @@
 #!/bin/bash
 sudo add-apt-repository ppa:regolith-linux/release
 sudo apt update
-sudo apt -y install i3-gaps git neovim terminator neofetch polybar rofi htop xcompmgr feh tmux i3lock xss-lock
+sudo apt -y install zsh i3-gaps git neovim terminator neofetch polybar rofi htop xcompmgr feh tmux i3lock xss-lock
 
-files=( ".gitconfig" ".nvimrc" ".bashrc" ".tmux.conf" ".config/i3" ".config/nvim" ".config/terminator" ".config/neofetch" ".config/polybar" ".config/rofi" ".config/htop" )
+files=( ".gitconfig" ".zshrc" ".nvimrc" ".bashrc" ".tmux.conf" ".config/i3" ".config/nvim" ".config/terminator" ".config/neofetch" ".config/polybar" ".config/rofi" ".config/htop" )
 
 [ ! -d "$HOME/.config" ] && mkdir "$HOME/.config"
 
