@@ -1,13 +1,11 @@
 #!/bin/bash
 #Install Python
-sudo apt install python3 pip
+sudo apt install python3 pip -y
 
 #Install Node
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+sudo apt install nodejs npm -y
 
 #Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-source ~/.bash_profile
-nvm install --lts
 source $HOME/.cargo/env 

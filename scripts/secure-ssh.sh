@@ -4,7 +4,7 @@ params=( "PermitRootLogin" "Port" "AddressFamily" "PasswordAuthentication" "Prot
 file="/etc/ssh/sshd_config"
 for param in ${params[@]}
 do
-	sed -i 's/^'$param'/d' $file
+	sed -i 's/^'${param}'/d' $file
 done
 echo "${params[1]} no" >> $file
 echo "${params[2]} 2222" >> $file
