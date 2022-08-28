@@ -38,19 +38,19 @@ sudo mv ./ghidra*/ /opt/
 sudo chown -R root:root /opt/ghidra*
 
 #GDB + GEF/PEDA
-sudo apt install gdb
+sudo apt install gdb -y
 bash -c "$(curl -fsSL https://gef.blah.cat/sh)"
 
 #binwalk, CPPCheclk, Clang, AFL++
 sudo apt install binwalk cppcheck clang clang-tools afl++ hexedit -y
 
 #Weggli
-sudo apt install cargo
+sudo apt install cargo -y
 cargo install weggli 
 echo "export PATH=\"$HOME/.cargo/bin:$PATH\"" >> $HOME/.bashrc
 echo "export PATH=\"$HOME/.cargo/bin:$PATH\"" >> $HOME/.zshrc
 
 #BinDiff
 curl -O https://dl.google.com/zynamics/bindiff_7_amd64.deb
-sudo apt install ./bindiff*.deb
+sudo apt install ./bindiff*.deb -y
 /opt/bindiff/libexec/bindiff_config_setup --per_user
