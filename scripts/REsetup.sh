@@ -28,12 +28,14 @@ radare2/sys/install.sh
 wget https://github.com/rizinorg/cutter/releases/download/v2.1.0/Cutter-v2.1.0-Linux-x86_64.AppImage
 chmod +x Cutter*.AppImage
 sudo mv ./Cutter*.AppImage /opt/cutter
+sudo chown -R root:root /opt/cutter
 
 #Ghidra
 sudo apt install openjdk-11-jre openjdk-11-jdk -y
 wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.1.5_build/ghidra_10.1.5_PUBLIC_20220726.zip
 unzip ghidra_*.zip
 sudo mv ./ghidra*/ /opt/
+sudo chown -R root:root /opt/ghidra*
 
 #GDB + GEF/PEDA
 sudo apt install gdb
