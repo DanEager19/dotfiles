@@ -5,7 +5,7 @@ sudo apt update && sudo apt upgrade
 sudo apt install build-essential curl wget -y 
 
 #ida
-curl -O https://out7.hex-rays.com/files/idafree80_linux.run
+./scrape-ida.py | wget
 chmod +x ./ida*_linux.run
 sudo ./ida*_linux.run
 /opt/idafree-8.0/ida64
