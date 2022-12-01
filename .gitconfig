@@ -1,6 +1,6 @@
 [user]
 	name = DanEager19
-	email = daniel@deager.dev
+	email = 81655709+DanEager19@users.noreply.github.com 
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
